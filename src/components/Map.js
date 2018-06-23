@@ -150,13 +150,14 @@ export class Map extends Component {
                       style = {{
                         default: { 
                           fill: this.colorScale()(geography.properties.data[this.props.variable.code]),
-                          stroke: "#000",
-                          strokeWidth: "0.2",
-                          outline: "none",
+                          stroke: '#000',
+                          strokeWidth: '0.2',
+                          outline: 'none',
                         },
                         hover:   { 
                           fill: "#999",
                           boxShadow: '10px 3px red',
+			  cursor: 'pointer',
                         },
                       }}
                     />

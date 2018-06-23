@@ -39,15 +39,17 @@ const expanded = {
 const closeButton = {
   background: 'none',
   border: 'none',
-  color: 'white',
+  color: '#e6e6e6',
   fontSize: 'medium',
   position: 'absolute',
-  right: '0%',
-  top: '0%',
-  }
+  right: '1%',
+  top: '1.5%',
+  cursor: 'pointer',
+}
 
 
 class ExpandedInfoBox extends Component {
+
 
   render() {
     const data = this.props.data.data
@@ -60,6 +62,7 @@ class ExpandedInfoBox extends Component {
     return(
       <div style={ expanded }> 
         <p style={{gridArea: 'top', borderBottom: '1px solid white' }}> 
+      	  <button style={closeButton}>  x  </button> 
           <span style={{margin: '5px', marginRight:'15px'}}> 
             <b> { infoBoxText(this.props.lang).dept }: </b> { dept } 
           </span>
