@@ -32,7 +32,7 @@ export class ScatterChart extends Component {
     }                                                                      
   }
 	
-	componentDidMount = () => this.resize()
+  componentDidMount = () => this.resize()
 
   componentWillMount = () => 
     window.addEventListener('resize', this.resize())

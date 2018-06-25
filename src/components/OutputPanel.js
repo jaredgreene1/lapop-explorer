@@ -11,16 +11,15 @@ import dept_map from '../data/dept_map.json';
 
 const outputPanel = {
  backgroundColor: '#FFF',
- maxWidth: '500px',
- width: '100%',
- boxSizing: 'border-box',
- minHeight: '400px',
- margin: '0 auto',
- padding: '10px',
- color: '#313131',
  borderRadius: '3px',
  boxShadow: 'black 2px 2px 15px',
- position: 'relative'
+ boxSizing: 'border-box',
+ color: '#313131',
+ flexBasis: '400px',
+ flexGrow: '1',
+ margin: '0 auto',
+ padding: '10px',
+ position: 'relative',
 }
 
 

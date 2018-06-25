@@ -123,7 +123,7 @@ export class Map extends Component {
                 lang={ this.props.lang }
               />
             }
-            <div id='chart-output' style={{display: 'flex', width: '100%', height: '100%', overflow: 'hidden'}}>
+            <div id='chart-output' style={{display: 'flex', width: '100%', height: '100%', overflow: 'hidden', justifyContent: 'center'}}>
               <ComposableMap 
                 width={this.state.width} 
                 height={this.state.height} 

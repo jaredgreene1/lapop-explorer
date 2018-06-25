@@ -6,18 +6,6 @@ import { getData } from '../data/data';
 import { ButtonGroup, Button, ExpandableSelect } from './Input';
 import { inputText } from '../copy'
 
-const inputPanel= {
-  display: 'flex',
-  flexDirection: 'column',
-  padding: '10px',
-  margin: '0 auto',
-  minWidth:'320px',
-  maxWidth:'500px',
-  height: 'fit-content',
-  marginBottom: '10px',
-  borderRadius: '7px',
-  flexGrow:'2'
-}
 
 const question = {
   display: 'flex',
@@ -30,6 +18,20 @@ const question = {
 export class InputPanel extends Component {
   constructor() {
     super()
+  }
+
+  inputPanel = () => {
+    return {
+      display: 'flex',
+      flexDirection: 'column',
+      padding: '10px',
+      margin: '0 auto',
+      flexBasis: '450px',
+      height: 'fit-content',
+      marginBottom: '10px',
+      borderRadius: '7px',
+      flexGrow:'2'
+    }
   }
 
   copy = () => inputText(this.props.lang)
@@ -172,7 +174,7 @@ export class InputPanel extends Component {
       
   render() {
     return(
-      <div name='inputPanel' style={inputPanel}>
+      <div name='inputPanel' style={this.inputPanel()}>
         
         <text style={{margin: '-38px 0px 7px 0px'}}> { this.copy().view }</text>
         <div name='view' style={{padding: '10px', margin: '5px', boxShadow: '#007cff 0px 0px 3px', borderRadius: '4px'}}>
