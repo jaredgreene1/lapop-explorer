@@ -21,7 +21,7 @@ const zoomButtons = {
   flexDirection: 'column',
   left: '-6%',
   top: '83%',
-  height: 'fit-content',
+  height: '53px',
   width: 'fit-content',
   position: 'relative',
   boxShadow: 'black 1px 1px 3px',
@@ -46,7 +46,7 @@ export class Map extends Component {
       hoverData: {},
       data: null,
       forceUpdate: false,  
-      width: 500,
+      width: window.innerWidth < 500 ? (0.8 * window.innerWidth) : 500,
       height: 400,
     }
   }
