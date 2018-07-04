@@ -23,6 +23,7 @@ const title_en = 'Networks of Guatemala - Data Explorer'
 const title_es = 'Networks of Guatemala - Explorador de Datos'
 
 
+
 /**********Stats View copy**********/
 const statsView_en = {
   olsTitle: "Ordinary Least Squared Analysis",
@@ -36,13 +37,13 @@ const statsView_en = {
                   or more independent variables`
 }
 const statsView_es = {
-  olsTitle: "ESP Ordinary Least Squared Analysis",
-  depVar: "ESP Dependent variable",
-  indepVar: "ESP Independent variables",
+  olsTitle: "Ordinary Least Squared Analysis",
+  depVar: "Variable dependiente",
+  indepVar: "Variables independiente",
   analysis: "Análisis",
-  rSquared: "ESP R-squared",
-  modelInfo: "ESP Model information",
-  coefs: "ESP Coefficients",
+  rSquared: "R-squared",
+  modelInfo: "Información del modelo",
+  coefs: "Coeficientes",
   varsRequired: `Elige un variable dependente y dos o más 
                   variables independente por favor`
 }
@@ -104,12 +105,8 @@ const introText_en = {
 
           <br /> <br />
 
-          Get started by selecting a view and your configuration 
-          variables in the panel below. Feel free to click through this 
-          menu for more information about the different 
-          views, project, and data.
-
-          Have fun!
+          Get started by selecting a view below and then configuring the data output with
+          different variables and data. 
         </text>
       </div>),
   'Data source': (
@@ -169,9 +166,7 @@ const introText_es = {
           en todo Guatemala.
           <br /> <br />
           Comience por seleccionar una vista y sus variables de 
-          configuración en el panel a continuación. Siéntase libre de 
-          hacer clic en este menú para obtener más información sobre las 
-          diferentes vistas, proyectos y datos. ¡Que te diviertas!
+          configuración en el panel a continuación. 
         </text>
       </div>),
   'Funte de datos': (
