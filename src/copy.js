@@ -64,27 +64,31 @@ const infoBox_es = {
 
 /**********Input Panel copy**********/
 const inputText_en = {
-  view: "View",
+  config: "Configuration",
+  depVar:   "Dependent variable",
+  indepVar: "Independent variable",
   map: "Map",
+  output: "Output chart",
   scatter: "Scatter",
   stats: "Analysis",
-  config: "Configuration",
-  output: "Output chart",
-  variable: "Variable",
-  year: "Year",
   unit: "Unit",
+  variable: "Variable",
+  view: "View",
+  year: "Year",
 }
 
 const inputText_es = {
-  view: "Vista",
+  config: "Configuración",
+  depVar: "Variable dependiente",
+  indepVar: "Variables independiente",
   map: "Mapa",
+  output: "Gráfico de salida",
   scatter: "Gráfico",
   stats: "Análisis",
-  config: "Configuración",
-  output: "Gráfico de salida",
-  variable: "Variable",
-  year: "Año",
   unit: "Unidad",
+  variable: "Variable",
+  view: "Vista",
+  year: "Año",
 }
 
 
@@ -163,7 +167,7 @@ const introText_es = {
           <br /> <br />
           NoG Data Explorer se utiliza para realizar una visualización y 
           análisis de datos básicos para la información de la población 
-          en todo Guatemala.
+          arededor Guatemala.
           <br /> <br />
           Comience por seleccionar una vista y sus variables de 
           configuración en el panel a continuación. 
