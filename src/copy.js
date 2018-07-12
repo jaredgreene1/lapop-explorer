@@ -195,7 +195,7 @@ const introText_es = {
 					admiten esta aplicación.
         </text>
       </div>),
-   'Quien samos?': (
+   'Quien somos?': (
       <div>
         <text>
 					Esta aplicación es parte de un proyecto de investigación en 
